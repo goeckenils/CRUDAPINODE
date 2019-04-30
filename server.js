@@ -4,6 +4,7 @@ const app = require("./app");
 const { connect } = require("./connect");
 
 const port = process.env.PORT;
+console.log("###", process.env.PORT);
 if (port == null || port == "") {
   port = 8000;
 }
