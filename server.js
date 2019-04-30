@@ -5,7 +5,6 @@ const { connect } = require("./connect");
 
 const port = process.env.PORT;
 console.log("###", process.env.PORT);
-app.listen(port);
 const server = http.createServer(app);
 
 const mongoosePromise = connect();
