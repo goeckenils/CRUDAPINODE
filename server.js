@@ -3,7 +3,7 @@ const app = require("./app");
 
 const { connect } = require("./connect");
 
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 console.log("###", process.env.PORT);
 const server = http.createServer(app);
 
